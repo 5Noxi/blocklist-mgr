@@ -77,15 +77,27 @@ The presets are just examples, use lists from the vendor you prefer.
 
 More lists/information:</ins>
 > https://github.com/gorhill/uBlock/wiki/
+> 
 > https://github.com/yokoffing/filterlists
+> 
 > https://adblockplus.org/filter-cheatsheet
+> 
 > https://github.com/DandelionSprout/adfilt
+> 
 > https://github.com/uBlockOrigin/uAssets
+> 
 > https://filterlists.com/
+> 
 > https://pi-hole.net/
+> 
 > https://sefinek.net/blocklist-generator
+> 
 > https://github.com/pixeltris/TwitchAdSolutions
+> 
 > https://learn.microsoft.com/en-us/windows/powertoys/hosts-file-editor
+> 
 > https://pyfunceble.github.io/#/
+> 
 > https://learn.microsoft.com/en-us/windows/privacy/windows-11-endpoints-non-enterprise-editions
+> 
 > https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
