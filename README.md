@@ -1,7 +1,10 @@
 # Blocklist Modification
 
-__Hosts file & filters?__
-The hosts file is a local **dns override** used to block domains or redirect websites. (`C:\Windows\System32\drivers\etc\hosts`) A filter get's added via e.g. uBO - filter within the browser -> no system wide blocking. 
+The hosts file is a local DNS override used to block domains or redirect websites. (`C:\Windows\System32\drivers\etc\hosts`) A filter get's added via e.g. uBO - filter within the browser -> no system wide blocking.
+
+Preview:
+
+https://github.com/user-attachments/assets/3429692e-2587-440a-b48c-a3b8ba46b149
 
 <ins>Examples:</ins>
 ```
@@ -19,7 +22,8 @@ First numbers (IP address) is where the domain will be **directed to**, the seco
 ⠀
 You should never use all blocklists! This would break most of your applications & slow down your system by a lot. Applying all lists won't give you a better browsing experience! Try to use at least lists as possible. (or use the default preset) Using big lists system wide (hosts file) is also not recommended - if you're planning to use a big list, do that via e.g. uBO (even if the list is compatible with the hosts file). Importing a list will override your current hosts!
 
-<ins>Issues after importing multiple lists?</ins>
+## Issues after importing multiple lists?
+
 Open `cmd` and paste `del /f /q C:\Windows\System32\drivers\etc\hosts` into it. If it shows that the DNS client used it, flush your DNS (`ipconfig /flushdns`). Still not? Boot into safemode (`bcdedit /set safeboot minimal`) & remove the hosts file. This may be needed, if importing too many lists.
 
 Default `hosts` content:
@@ -57,7 +61,9 @@ The presets are just examples, use lists from the vendor you prefer.
 
 `Import` - Imports the currently selected lists into the `hosts` file (if compatible)
 
-`Copy Links` - Copies URLs of all selected lists
+`Copy Links` - Copies URLs of all selected lists, add the links from `Copy Links` to the custom filter lists, as shown here:
+
+![ubolinks](https://github.com/5Noxi/Blocklist-Modification/blob/main/ubolinks.png?raw=true)
 
 `Restore` - Imports the backup (`C:\Windows\System32\drivers\etc\hosts.noverse`)
 
@@ -68,9 +74,6 @@ The presets are just examples, use lists from the vendor you prefer.
 - Adjust the window size, to increase the size of the hosts/log box
 - `hosts` preview refreshes itself automatically
 - You can edit the hosts file via the panel in the GUI (doesn't create a backup)
-
-
-Add the links from `Copy Links` to the custom filter lists, as shown here:
 
 More lists/information:</ins>
 > https://github.com/gorhill/uBlock/wiki/
