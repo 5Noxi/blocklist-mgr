@@ -53,21 +53,15 @@ Default `hosts` content:
 
 ## GUI Buttons
 The presets are just examples, use lists from the vendor you prefer.
-`Minimal` - Preset, which can be used by anyone (hosts/filter)
-
-`Default` - Default preset, compact size (filter)
-
-`Maximum` - For users, who want aggressive blocking (filter)
-
-`Import` - Imports the currently selected lists into the `hosts` file (if compatible)
-
-`Copy Links` - Copies URLs of all selected lists, add the links from `Copy Links` to the custom filter lists, as shown here:
-
-![ubolinks](https://github.com/5Noxi/Blocklist-Modification/blob/main/ubolinks.png?raw=true)
-
-`Restore` - Imports the backup (`C:\Windows\System32\drivers\etc\hosts.noverse`)
-
-`Open File` - Opens `C:\Windows\System32\drivers\etc\hosts`
+| Button        | Description                                                                                                                                                                                               |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Minimal`     | Preset, which can be used by anyone (hosts/filter).                                                                                                                                                       |
+| `Default`     | Default preset, compact size (filter).                                                                                                                                                                    |
+| `Maximum`     | For users who want aggressive blocking (filter).                                                                                                                                                          |
+| `Import`      | Imports the currently selected lists into the `hosts` file (if compatible).                                                                                                                               |
+| `Copy Links`  | Copies URLs of all selected lists. Add these links to the custom filter lists:<br>![ubolinks](https://github.com/5Noxi/Blocklist-Modification/blob/main/ubolinks.png?raw=true)       |
+| `Restore`     | Imports the backup from: `C:\Windows\System32\drivers\etc\hosts.noverse`.                                                                                                                                 |
+| `Open File`   | Opens the file: `C:\Windows\System32\drivers\etc\hosts`.                                                                                                                                                   |
 
 ## Additional features:
 - Click on the category name (blue) to open the source link
@@ -76,28 +70,16 @@ The presets are just examples, use lists from the vendor you prefer.
 - You can edit the hosts file via the panel in the GUI (doesn't create a backup)
 
 More lists/information:</ins>
-> https://github.com/gorhill/uBlock/wiki/
-> 
-> https://github.com/yokoffing/filterlists
-> 
-> https://adblockplus.org/filter-cheatsheet
-> 
-> https://github.com/DandelionSprout/adfilt
-> 
-> https://github.com/uBlockOrigin/uAssets
-> 
-> https://filterlists.com/
-> 
-> https://pi-hole.net/
-> 
-> https://sefinek.net/blocklist-generator
-> 
-> https://github.com/pixeltris/TwitchAdSolutions
-> 
-> https://learn.microsoft.com/en-us/windows/powertoys/hosts-file-editor
-> 
-> https://pyfunceble.github.io/#/
-> 
-> https://learn.microsoft.com/en-us/windows/privacy/windows-11-endpoints-non-enterprise-editions
-> 
-> https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+> https://github.com/gorhill/uBlock/wiki/  
+> https://github.com/yokoffing/filterlists  
+> https://adblockplus.org/filter-cheatsheet  
+> https://github.com/DandelionSprout/adfilt  
+> https://github.com/uBlockOrigin/uAssets  
+> https://filterlists.com/  
+> https://pi-hole.net/  
+> https://sefinek.net/blocklist-generator  
+> https://github.com/pixeltris/TwitchAdSolutions  
+> https://learn.microsoft.com/en-us/windows/powertoys/hosts-file-editor  
+> https://pyfunceble.github.io/#/  
+> https://learn.microsoft.com/en-us/windows/privacy/windows-11-endpoints-non-enterprise-editions  
+> https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints  
