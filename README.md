@@ -1,4 +1,4 @@
-# Blocklist Modification
+# Blocklist Manager
 
 The hosts file is a local DNS override used to block domains or redirect websites. (`C:\Windows\System32\drivers\etc\hosts`) A filter get's added via e.g. uBO - filter within the browser -> no system wide blocking.
 
