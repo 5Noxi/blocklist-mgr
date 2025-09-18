@@ -59,7 +59,7 @@ The presets are just examples, use lists from the vendor you prefer.
 | `Default`     | Default preset, compact size (filter).                                                                                                                                                                    |
 | `Maximum`     | For users who want aggressive blocking (filter).                                                                                                                                                          |
 | `Import`      | Imports the currently selected lists into the `hosts` file (if compatible).                                                                                                                               |
-| `Copy Links`  | Copies URLs of all selected lists. Add these links to the custom filter lists:<br>![ubolinks](https://github.com/5Noxi/Blocklist-Modification/blob/main/ubolinks.png?raw=true)       |
+| `Copy Links`  | Copies URLs of all selected lists. Add these links to the custom filter lists:<br>![](https://github.com/5Noxi/blocklist-mgr/blob/main/images/ubolinks.png?raw=true)       |
 | `Restore`     | Imports the backup from: `C:\Windows\System32\drivers\etc\hosts.noverse`.                                                                                                                                 |
 | `Open File`   | Opens the file: `C:\Windows\System32\drivers\etc\hosts`.                                                                                                                                                   |
 
