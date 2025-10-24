@@ -1,4 +1,3 @@
-
 # Blocklist Manager
 
 The hosts file is a local DNS override used to block domains or redirect websites. (`C:\Windows\System32\drivers\etc\hosts`) A filter get's added via e.g. uBO - filter within the browser -> no system wide blocking.
@@ -7,7 +6,7 @@ Preview (not up to date):
 
 https://github.com/user-attachments/assets/3429692e-2587-440a-b48c-a3b8ba46b149
 
-<ins>Examples:</ins>
+Examples:
 ```
 0.0.0.0 ads.com -> non routable address
 127.0.0.1 ads.com -> loopback address
